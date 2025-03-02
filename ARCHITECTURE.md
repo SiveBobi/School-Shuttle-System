@@ -1,6 +1,5 @@
-# Project Title: School Shuttle System
+# School Shuttle System
 
-The purpose of the project is to ............. .
 
 
 ```mermaid
