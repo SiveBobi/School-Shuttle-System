@@ -1,3 +1,8 @@
+# Project Title: School Shuttle System
+
+The purpose of the project is to ............. .
+
+
 ```mermaid
 %% === Level 1: System Context Diagram ===
 graph TD;
