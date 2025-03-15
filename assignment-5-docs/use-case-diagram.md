@@ -1,5 +1,6 @@
 
-# 🧩 Use Case Diagram (GitHub-Compatible)
+
+  # 🧩 Use Case Diagram (GitHub-Compatible)
 
 ```mermaid
 graph TD;
@@ -52,17 +53,6 @@ graph TD;
   %% Styling
   classDef actor fill:#f9f,stroke:#333,stroke-width:1px;
   class Passenger,Parent,Driver,Admin,Inspector,System actor;
-
-
-
-
-
-
-
-
-
-
-
 
 
 
