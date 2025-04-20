@@ -26,13 +26,6 @@ Assignment10/
 ├── CHANGELOG.md
 ```
 
-Click to view content:
-
-- 📁 [`src/`](./src) – Core system classes  
-- 📁 [`creational_patterns/`](./creational_patterns) – All six creational pattern implementations  
-- 📁 [`tests/`](./tests) – Unit tests for all patterns  
-- 📄 [`CHANGELOG.md`](./CHANGELOG.md) – Task log and milestone tracking  
-
 ---
 
 ## ⚙️ Technologies Used
@@ -43,41 +36,41 @@ Click to view content:
 
 ---
 
-## 🧩 Creational Patterns & Justification
+## 🧩 Creational Patterns (Descriptions)
 
-| Pattern          | File                                                        | Purpose                                                        |
-|------------------|-------------------------------------------------------------|----------------------------------------------------------------|
-| Simple Factory   | [`simple_factory.py`](./creational_patterns/simple_factory.py)     | Centralized creation of `Car`, `Bike`, `Truck`                 |
-| Factory Method   | [`factory_method.py`](./creational_patterns/factory_method.py)     | Subclass decision-making for `CreditCard` vs `PayPal`          |
-| Abstract Factory | [`abstract_factory.py`](./creational_patterns/abstract_factory.py) | Produces compatible UI elements (buttons/checkboxes)           |
-| Builder          | [`builder.py`](./creational_patterns/builder.py)                   | Builds `Pizza` step-by-step with optional ingredients           |
-| Prototype        | [`prototype.py`](./creational_patterns/prototype.py)               | Clones configured shapes like `Circle`, `Rectangle`             |
-| Singleton        | [`singleton.py`](./creational_patterns/singleton.py)               | Single shared `DatabaseConnection` instance                    |
+| Pattern          | Purpose                                                        |
+|------------------|----------------------------------------------------------------|
+| Simple Factory   | Centralized creation of `Car`, `Bike`, `Truck` objects         |
+| Factory Method   | Subclasses decide which payment processor to use               |
+| Abstract Factory | Produces families of UI components (buttons, checkboxes)       |
+| Builder          | Builds `Pizza` step-by-step with optional ingredients          |
+| Prototype        | Clones configured shapes like `Circle`, `Rectangle`            |
+| Singleton        | Ensures one shared `DatabaseConnection` instance               |
 
 ---
 
 ## ✅ Class Implementations (from UML)
 
-Classes from the class diagram are implemented in [`/src`](./src):
+The following class files are based on the domain model and class diagram:
 
-- [`user.py`](./src/user.py): Handles borrowing & returning  
-- [`book.py`](./src/book.py): Tracks book status  
-- [`loan.py`](./src/loan.py): Manages loan logic & fine calculation  
-- [`fine.py`](./src/fine.py): Records fine amounts and payments  
-- [`librarian.py`](./src/librarian.py): Staff issuing and accepting books  
-- [`reservation.py`](./src/reservation.py): Book reservation handling  
+- [`user.py`](./src/user.py): Handles borrowing and returning books  
+- [`book.py`](./src/book.py): Tracks book metadata and status  
+- [`loan.py`](./src/loan.py): Manages loan activity and fines  
+- [`fine.py`](./src/fine.py): Tracks overdue fines and payment status  
+- [`librarian.py`](./src/librarian.py): Admin functions for book issuing  
+- [`reservation.py`](./src/reservation.py): Handles book reservations  
 
 ---
 
 ## 🧪 Running Tests
 
-All pattern tests are in [`/tests`](./tests). To run all tests:
+To run all tests:
 
 ```bash
 python -m unittest discover tests
 ```
 
-To run with **coverage** (optional):
+To run with coverage:
 
 ```bash
 pip install coverage
@@ -85,20 +78,12 @@ coverage run -m unittest discover tests
 coverage report
 ```
 
-All patterns are tested for:
+All design patterns are tested for:
 - Correct object creation  
-- Attribute correctness  
-- Singleton instance validation  
-- Prototype clone independence  
-- Builder step-by-step integrity
-
----
-
-## 📊 Project Tracking
-
-- Tasks & implementation milestones are tracked in [`CHANGELOG.md`](./CHANGELOG.md)
-- Issues/bugs managed via GitHub Projects
-- Code is modular, testable, and scalable
+- Proper attribute initialization  
+- Singleton enforcement  
+- Prototype cloning  
+- Builder logic  
 
 ---
 
