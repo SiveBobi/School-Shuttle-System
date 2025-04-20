@@ -1,0 +1,13 @@
+import unittest
+from creational_patterns.abstract_factory import WindowsFactory, MacOSFactory
+
+class TestAbstractFactory(unittest.TestCase):
+    def test_windows_factory(self):
+        factory = WindowsFactory()
+        self.assertEqual(factory.create_button().render(), "Windows Button Rendered")
+        self.assertEqual(factory.create_checkbox().render(), "Windows Checkbox Rendered")
+
+    def test_macos_factory(self):
+        factory = MacOSFactory()
+        self.assertEqual(factory.create_button().render(), "MacOS Button Rendered")
+        self.assertEqual(factory.create_checkbox().render(), "MacOS Checkbox Rendered")
