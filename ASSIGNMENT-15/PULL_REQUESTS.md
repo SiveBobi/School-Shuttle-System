@@ -1,29 +1,56 @@
-# 🔁 Pull Requests Submitted
+# 🔁 Pull Requests Submitted – Assignment 15
 
-## ✅ PR 1 – Amanda’s Smart Attendance System
-
-- 🔗 PR: https://github.com/amanda-attendance/smart-attendance/pull/8
-- 🐛 Issue: `good-first-issue` – Fix date formatting
-- 🧪 CI Status: ✅ Passed
-- 📄 Description: Corrected date formatting in `AttendanceService` using ISO 8601 format.
-- 🖼️ Screenshot: `docs/ci-pass-attendance.png`
+Below are the pull requests I submitted to my peers' projects as part of the cross-project collaboration assignment.
 
 ---
 
-## ✅ PR 2 – Tumi’s Bookstore API
+## 📘 PR 1 – Library Desk Booking System  
+**🧑🏽‍💻 Author:** Hlakanipha Mboxela  
+**🔗 Repo:** https://github.com/SiveBobi/Library-Desk-Booking-System  
 
-- 🔗 PR: https://github.com/tumi-bookstore/bookstore-api/pull/12
-- 🔍 Issue: `feature-request` – Implement search `/books?q=...`
-- 🧪 CI Status: ✅ Passed
-- 📄 Description: Added query param `q` to search titles in the books route. Tested with `TestClient`.
-- 🖼️ Screenshot: `docs/ci-pass-bookstore.png`
+- **🔗 PR Link:** [PR #1](https://github.com/Hlakanipha-Mboxela/Library-Desk-Booking-System/pull/1)
+- **📌 Issue:** `good-first-issue` – Fix inconsistent variable names in booking service
+- **✅ Status:** Submitted (Awaiting review)
+- **🧪 CI Status:** ✅ Tests passed
+- **📄 Description:** Standardized variable naming across `BookingService` to follow consistent snake_case convention.
+- **🖼️ Screenshot:** `docs/ci-pass-booking.png`
 
 ---
 
-## ✅ PR 3 – Lebo’s Delivery Tracker
+## 📗 PR 2 – Smart Library  
+**🧑🏽‍💻 Author:** Mongameli Shasha  
+**🔗 Repo:** https://github.com/SiveBobi/Smart-Library  
 
-- 🔗 PR: https://github.com/lebo-delivery/delivery-tracker/pull/6
-- 🧼 Issue: `good-first-issue` – Fix README typos
-- 🧪 CI Status: ✅ Passed
-- 📄 Description: Fixed typos in `README.md` and updated `api-docs.md`
-- 🖼️ Screenshot: `docs/ci-pass-delivery.png`
+- **🔗 PR Link:** [PR #2](https://github.com/MongameliShasha/Smart-Library/pull/2)
+- **📌 Issue:** `feature-request` – Add `/api/users/search` endpoint
+- **✅ Status:** Submitted (Awaiting review)
+- **🧪 CI Status:** ✅ Tests passed
+- **📄 Description:** Implemented a search route to filter users by name or email. Added integration test using FastAPI's TestClient.
+- **🖼️ Screenshot:** `docs/ci-pass-smartlibrary.png`
+
+---
+
+## 📙 PR 3 – LibrarySystem  
+**🧑🏽‍💻 Author:** Lonwabo Alvin  
+**🔗 Repo:** https://github.com/SiveBobi/LibrarySystem  
+
+- **🔗 PR Link:** [PR #3](https://github.com/LonwaboAlvin/LibrarySystem/pull/3)
+- **📌 Issue:** `good-first-issue` – Fix typos in `README.md` and `CONTRIBUTING.md`
+- **✅ Status:** Submitted (Awaiting review)
+- **🧪 CI Status:** ✅ No tests required (docs-only)
+- **📄 Description:** Corrected grammar, punctuation, and sentence structure in the main documentation.
+- **🖼️ Screenshot:** `docs/ci-pass-librarysystem.png`
+
+---
+
+## 🏁 Summary
+
+| Project                        | PR Status | CI Passed | Label             |
+|-------------------------------|-----------|-----------|-------------------|
+| Library Desk Booking System   | Submitted | ✅         | good-first-issue  |
+| Smart Library                 | Submitted | ✅         | feature-request   |
+| LibrarySystem                 | Submitted | ✅         | good-first-issue  |
+
+> Screenshots of passing CI pipelines are stored in `/docs/` folder for each PR.
+
+
